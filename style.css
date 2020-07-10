@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.stopwatch{
+    margin-left: 200px;
+    margin-right: 200px;    
+    border-radius: 20px;
+    background-color: aqua;
+    border: 10px solid blue;
+}
+
+.number{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.number div h3{
+    /* margin-top: 10px; */
+    font-size: 80px;
+    /* padding: 20px; */
+    /* padding-left: 100px;
+    padding-right: 100px; */
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    
+}
+
+.number div{
+    height: 250px;
+    width: 200px;
+
+}
+
+
+.buttons input:hover{
+    background-color: darkblue;
+}
+
+.buttons input{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    /* margin-top: 0px; */
+    font-size: 20px;
+    padding: 20px ;
+    margin: 20px;
+    
+}
